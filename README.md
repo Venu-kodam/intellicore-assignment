@@ -8,5 +8,5 @@
 
 ### Live Demo
 
-Check out the live portfolio here: [demo]()
+Check out the live portfolio here: [demo](https://intellicore-assignment.vercel.app/)
 

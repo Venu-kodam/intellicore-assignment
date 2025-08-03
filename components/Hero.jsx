@@ -27,7 +27,14 @@ const Hero = () => {
             </div>
             <button className="bg-[#00f0a0] rounded-full text-lg font-bold cursor-pointer  px-12 py-4 my-8">Try Jobright for Free</button>
             <div className=" relative w-full z-10 aspect-[4/3] sm:aspect-video mt-12">
-                <iframe width="1200" height="675" src="https://www.youtube.com/embed/f2oQsk2er0Y?controls=0" title="Jobright: Your AI Job Search Copilot - More Interviews, Less Effort" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='mt-12 absolute top-0 left-0 px-2 w-full rounded-2xl'></iframe>
+                <iframe
+                    width="1200"
+                    height="675"
+                    src="https://www.youtube.com/embed/f2oQsk2er0Y?controls=0&autoplay=1&mute=1&loop=1&playlist=f2oQsk2er0Y"
+                    title="Jobright: Your AI Job Search Copilot - More Interviews, Less Effort"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    className='mt-12 absolute top-0 left-0 px-2 w-full rounded-2xl'
+                ></iframe>
             </div>
         </div>
     )
